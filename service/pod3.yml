@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-        name: nginxapp2
+        name: nginxapp3
         labels:
-            app: nginxapp2
+            app: nginxapp3
 spec:
     containers:
-        - name: nginxcont
+        - name: nginxcont3
           image: nginx:latest
           resources:
               requests:
