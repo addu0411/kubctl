@@ -6,7 +6,7 @@ metadata:
             app: nginxapp2
 spec:
     containers:
-        - name: nginxcont2
+        - name: nginxcont
           image: nginx:latest
           resources:
               requests:
