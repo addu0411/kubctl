@@ -22,7 +22,7 @@ spec:
           spec:
           containers:
             - name: http
-          image: tomcat 
+              image: tomcat 
           ports:
               - name: http
                 containerPort: 80
