@@ -24,9 +24,9 @@ containers:
         name: http
         image: tomcat 
 ports:
-  - name: http
-    containerPort: 80
-          protocol: TCP
+- name: http
+containerPort: 80
+protocol: TCP
 
 
 
