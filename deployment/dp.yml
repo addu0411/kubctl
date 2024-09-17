@@ -19,8 +19,8 @@ spec:
                 name: nginxapp 
                 labels:
                       app: nginxapp 
-          spec:
-          containers:
+    spec:
+      containers:
             - name: http
               image: tomcat 
           ports:
