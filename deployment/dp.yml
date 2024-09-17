@@ -21,8 +21,8 @@ spec:
                       app: nginxapp 
     spec:
       containers:
-            - name: http
-               image: tomcat 
+       - name: http
+       image: tomcat 
           ports:
               - name: http
                 containerPort: 80
